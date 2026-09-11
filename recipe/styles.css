@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9; 
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 600px;
+    margin: 40px auto; /* Centering a block element horizontally */
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Gives the card a 3D effect */
+    text-align: center; /* Centers inline elements (like text and the <a> tags) */
+    
+    position: relative; /* Set to relative so if you want to use absolute positioning later, it stays contained here */
+}
+
+h1 {
+    color: #d35400; 
+    margin-bottom: 20px;
+}
+
+h5 {
+    margin-bottom: 15px;
+    color: #555;
+    font-size: 16px;
+}
+
+.main-img {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    
+    display: block; /* Images are inline by default. Changing to block lets us center it with margins */
+    margin: 0 auto; /* Centers the image */
+}
+
+.btn {
+    display: inline-block; /* Allows margins/padding, but keeps them on the same line */
+    background-color: #2980b9;
+    color: white;
+    text-decoration: none; /* Removes the default blue underline */
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 4px;
+}
+
+/* Hover state for user feedback */
+.btn:hover {
+    background-color: #1c5980;
+}
+
+footer {
+    margin-top: 30px;
+    padding-top: 15px;
+    border-top: 1px solid #ddd;
+}
+
+.home-link {
+    display: block; /* Forces the link to take up its own line, pushing it below everything else */
+    color: #7f8c8d;
+    text-decoration: none;
+}
+
+.home-link:hover {
+    text-decoration: underline;
+}
