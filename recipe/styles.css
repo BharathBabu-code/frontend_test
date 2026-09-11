@@ -75,3 +75,66 @@ footer {
 .home-link:hover {
     text-decoration: underline;
 }
+
+
+
+/* =========================================
+   RECIPE PAGE SPECIFIC STYLES 
+   ========================================= */
+
+
+h2 {
+    color: #2c3e50;
+    margin-top: 15px;
+    font-size: 24px;
+}
+
+h3 {
+    color: #d35400; 
+    border-bottom: 2px solid #eee; /* Adds a clean divider line */
+    padding-bottom: 8px;
+    margin-bottom: 15px;
+}
+
+.recipe-intro {
+    font-style: italic;
+    color: #7f8c8d;
+    margin-bottom: 30px;
+}
+
+
+.recipe-section {
+    margin-bottom: 30px;
+    text-align: left; /* Overrides the center-alignment from the parent .container */
+    background-color: #fafafa; 
+    padding: 20px;
+    border-radius: 6px;
+    border: 1px solid #eaeaea; 
+}
+
+.ingredient-list, 
+.instruction-list {
+    padding-left: 25px; 
+    line-height: 1.7; 
+}
+
+.ingredient-list li {
+    margin-bottom: 12px;
+}
+
+.instruction-list li {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.instruction-list p {
+    margin-top: 6px;
+    color: #555; 
+}
+
+.enjoy-text {
+    color: #27ae60; 
+    margin: 30px 0;
+    font-size: 1.2rem;
+    letter-spacing: 1px; /* Spreads the letters out slightly */
+}
